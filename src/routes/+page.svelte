@@ -1,24 +1,8 @@
 <script>
-  import Card from "$lib/Card.svelte";
-
-  const cardObj = [{
-      title: 'Image title',
-      description: 'This is a painting',
-      button: 'This is button text',
-      img: 'https://picsum.photos/seed/picsum/200/300'
-  },
-  {
-      title: 'Image title',
-      description: 'This is a painting',
-      button: 'This is button text',
-      img: 'https://picsum.photos/seed/picsum/200/300'
-  },
- {
-      title: 'Image title',
-      description: 'This is a painting',
-      button: 'This is button text',
-      img: 'https://picsum.photos/seed/picsum/200/300'
-  }]
+  import {cardObj} from "../lib/data.js";
+  
+  import Card from "../lib/components/Card.svelte";
+  
 </script>
 
 <header>
