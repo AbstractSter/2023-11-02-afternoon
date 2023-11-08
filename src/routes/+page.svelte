@@ -2,6 +2,8 @@
   import {cardObj} from "../lib/data.js";
   
   import Card from "../lib/components/Card.svelte";
+
+  import {footer} from "/src/lib/components/Footer.svelte";
   
 </script>
 
@@ -13,6 +15,13 @@
 {#each cardObj as card}
   <Card {...card}/>
 {/each}
+
+<!-- <footer>
+  {#if $footer}
+    <footer />
+  {/if}
+</footer> -->
+
 
 
 
